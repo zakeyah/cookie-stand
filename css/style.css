@@ -1,3 +1,14 @@
 body {
+    background-color ;
     font-family: 'Zilla Slab Highlight', cursive;
+}
+
+table,
+th,
+td {
+  border: 3px solid black;
+}
+
+th {
+    background-color: rgb(231, 136, 136);
 }
