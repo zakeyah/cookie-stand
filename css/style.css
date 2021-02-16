@@ -1,7 +1,90 @@
-body {
-    background-color ;
-    font-family: 'Zilla Slab Highlight', cursive;
+*{
+  box-sizing: border-box;
 }
+body {
+    background-color:#rgb(235, 237, 245) ;
+    font-family:'Zilla Slab Highlight', cursive;
+}
+
+header{
+  background-color: rgb(11, 11, 146);
+  color:rgb(235, 237, 245);
+  padding: 20px;
+}
+header h1{
+  font-size: 40px;
+  font-style: bold;
+  
+}
+header nav ul{
+  position: relative;
+}
+header nav ul li{
+  display: inline;
+  padding: 50px;
+  text-transform: uppercase;
+}
+header nav ul li :last-child{
+  width: 200px;
+  padding-left: 10px;
+}
+header nav ul li a{
+  text-decoration: none;
+  color:rgb(220, 224, 236)
+}
+#image{
+  padding-left: 400px;
+}
+
+button a{
+  text-decoration: none;
+  color:black;
+}
+#family {
+  float: right;
+  border: 10px solid goldenrod ;
+  color:blue
+}
+#family :nth-child(2){
+  width: 500px;
+}
+h2{
+  text-align: center;
+  font-style: bold;
+  font-size: xx-large;
+  color:darkblue
+}
+h3{
+  text-align: center;
+  font-style: bold;
+  font-size: x-large;
+  padding: 10px;
+  
+}
+
+#shirt{
+  
+  float:left;
+  text-align: center;
+  color:blue ;
+  border: 10px solid goldenrod ;
+}
+#shirt img{
+  padding-top: 5px;
+ width: 320px;
+}
+#storse{
+  color: rgb(8, 8, 129)
+}
+#storse h3{
+  text-align: left;
+}
+#last{
+  float:right;
+}
+
+
+
 
 table,
 th,
@@ -11,4 +94,9 @@ td {
 
 th {
     background-color: rgb(231, 136, 136);
+}
+footer{
+  background-color:rgb(28, 95, 184);
+  clear: both;
+  padding: 40px;
 }
