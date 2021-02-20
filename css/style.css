@@ -1,9 +1,9 @@
 *{
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    background-color:#rgb(235, 237, 245) ;
-    font-family:'Zilla Slab Highlight', cursive;
+    background-color:rgb(235, 237, 245) ;
 }
 
 header{
@@ -43,7 +43,8 @@ button a{
 #family {
   float: right;
   border: 10px solid goldenrod ;
-  color:blue
+  color:blue;
+  background-color: rgb(161, 184, 233);
 }
 #family :nth-child(2){
   width: 500px;
@@ -68,6 +69,7 @@ h3{
   text-align: center;
   color:blue ;
   border: 10px solid goldenrod ;
+  background-color: rgb(161, 184, 233);
 }
 #shirt img{
   padding-top: 5px;
